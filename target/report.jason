@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4769348101,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has to launch the chrome browser and hit the facebook url",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_launch_the_chrome_browser_and_hit_the_facebook_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "To verify login functionality with valid username and invalid password in facebook",
+        "description": "",
+        "id": "to-validate-login-page-of-facebook;to-verify-login-functionality-with-valid-username-and-invalid-password-in-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 278472499,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has to enter the username and password",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_enter_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "preethi"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "dfghjk%$#134"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111574200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click the login button",
+            "match": {
+              "location": "LoginPageSteps.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14145300500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should not be taken to the home page",
+            "match": {
+              "location": "LoginPageSteps.user_should_not_be_taken_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3666810600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has to launch the chrome browser and hit the facebook url",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_launch_the_chrome_browser_and_hit_the_facebook_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "To verify the forgotten password in facebook page",
+        "description": "",
+        "id": "to-validate-login-page-of-facebook;to-verify-the-forgotten-password-in-facebook-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1425083700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user has to click the forgotten password link",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_click_the_forgotten_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3155678300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to enter phone or email",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_enter_phone_or_email(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "mobile",
+                  "4567567778"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "dfghjklfgh@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90920100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user has to click search button",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3096527300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has to be redirected to OTP page",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_be_redirected_to_OTP_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login page of facebook",
+    "description": "",
+    "id": "to-validate-login-page-of-facebook",
+    "keyword": "Feature",
+    "uri": "src/test/resources/LoginFeature/Login1DMap.feature",
+    "tags": []
+  }
+]
